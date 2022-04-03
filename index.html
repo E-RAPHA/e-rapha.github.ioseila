@@ -11,7 +11,7 @@
     <div class="ig" onmouseenter="clarin()" onmouseleave="escurin()" onclick="ig()">
         
         <a href=>
-        <img class="icone-ig" src="ig.png" alt="ig">
+        <img class="icone-ig" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="ig">
         </a>
         
         </div>
@@ -28,12 +28,57 @@
 <body style="background-color: rgb(61, 60, 60);">
 
 <style>
+  @media only screen and (max-device-width: 850px) {
+    .meunome{
+    font-size: 130px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;;
+    color: rgb(255, 254, 254);
+    margin-top: 10px;
+    pointer-events: none
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -550px;
+    z-index: -1;
+}
+.ig{
+    background-color: rgb(124, 121, 122);
+    border-radius: 10px;
+    height:170px ;
+    width: 650px;
+    display: inline-block;
+    margin-left: 16%;
+
+}
+.icone-ig{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    filter: invert(1);
+    display: inline-block;
+ 
+}
+.unames{
+    font-size: 130px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: -340px;
+    margin-left: 33%;
+    pointer-events: none
+}
+
+}
+
     html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
-.meunome{
+@media only screen and (min-device-width: 850px) {
+  .meunome{
     font-size: 100px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;;
@@ -74,6 +119,8 @@
     pointer-events: none
 }
 
+}
+
 </style>
 
 
@@ -81,6 +128,7 @@
 </body>
 
 <script>
+
 function ig(){
     document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 }
@@ -228,4 +276,10 @@ requestAnimationFrame(update);
     }
     particles();
 
+function celula(){
+  if(window.innerWidth <= 850){
+    particles.number.value = 10;
+  }
+}
+celula();
 </script>
