@@ -12,7 +12,7 @@
     <div class="ig" onmouseenter="clarin()" onmouseleave="escurin()" onclick="ig()">
 
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <img class="icone-ig" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="ig">
+        <img class="icone-ig" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="ig" >
       </a>
 
     </div>
@@ -144,7 +144,14 @@
 <script>
 
   function ig() {
-    document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    document.getElementsByClassName("meunome")[0].innerHTML = "YOU'VE BEEN RICK ROLLED!";
+    let bColor= 0;
+    setInterval(() => {
+      bColor++;
+      !(bColor&1) ? document.body.style.backgroundColor = "rgb(255, 0, 0)" : document.body.style.backgroundColor = "rgb(255, 254, 254)";
+    }, 50);
+    setTimeout(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},1.4*1000)
+    
   }
 
   function clarin() {
