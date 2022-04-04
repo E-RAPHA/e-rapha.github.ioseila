@@ -3,125 +3,138 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <link rel="stylesheet" href="home.css">
+
 <head>
-<title>Home</title>
-<h1 class="meunome">Raphael Burad</h1>
-<div class="redes" >
+  <title>Home</title>
+  <h1 class="meunome">Raphael Burad</h1>
+  <div class="redes">
 
     <div class="ig" onmouseenter="clarin()" onmouseleave="escurin()" onclick="ig()">
-        
-        <a href=>
+
+      <a href=>
         <img class="icone-ig" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="ig">
-        </a>
-        
-        </div>
-   
-     <div class="unames">
-    <h4>Raphael</h4>
+      </a>
+
     </div>
 
-</div>
- <div id="particles-js"></div>
+    <div class="unames">
+      <h4>Raphael</h4>
+    </div>
+
+  </div>
+  <div id="particles-js"></div>
 
 
 </head>
+
 <body style="background-color: rgb(61, 60, 60);">
 
-<style>
-  @media only screen and (max-device-width: 850px) {
-    .meunome{
-    font-size: 130px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;;
-    color: rgb(255, 254, 254);
-    margin-top: 10px;
-    pointer-events: none
-}
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-top: -550px;
-    z-index: -1;
-}
-.ig{
-    background-color: rgb(124, 121, 122);
-    border-radius: 10px;
-    height:170px ;
-    width: 650px;
-    display: inline-block;
-    margin-left: 16%;
+  <style>
+    @media only screen and (max-device-width: 1000px) {
+      .meunome {
+        font-size: 130px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 254, 254);
+        margin-top: 10px;
+        pointer-events: none
+      }
 
-}
-.icone-ig{
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-    margin-left: 10px;
-    filter: invert(1);
-    display: inline-block;
- 
-}
-.unames{
-    font-size: 130px;
-    font-weight: bold;
-    color: #FFF;
-    margin-top: -340px;
-    margin-left: 33%;
-    pointer-events: none
-}
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: -550px;
+        z-index: -1;
+      }
 
-}
+      .ig {
+        background-color: rgb(124, 121, 122);
+        border-radius: 10px;
+        height: 170px;
+        width: 720px;
+        display: inline-block;
+        margin-left: 11%;
 
-    html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-@media only screen and (min-device-width: 850px) {
-  .meunome{
-    font-size: 100px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;;
-    color: #FFF;
-    margin-top: 10px;
-    pointer-events: none
-}
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-top: -250px;
-    z-index: -1;
-}
-.ig{
-    background-color: rgb(124, 121, 122);
-    border-radius: 10px;
-    height:70px ;
-    width: 250px;
-    display: inline-block;
+      }
 
-}
-.icone-ig{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-    filter: invert(1);
-    display: inline-block;
- 
-}
-.unames{
-    font-size: 40px;
-    font-weight: bold;
-    color: #FFF;
-    margin-top: -110px;
-    margin-left: 70px;
-    pointer-events: none
-}
+      .icone-ig {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+        margin-left: 10px;
+        filter: invert(1);
+        display: inline-block;
 
-}
+      }
 
-</style>
+      .unames {
+        font-family: 'Poppins', sans-serif;
+        font-size: 130px;
+        font-weight: bold;
+        color: #FFF;
+        margin-top: -330px;
+        margin-left: 30%;
+        pointer-events: none
+      }
+
+    }
+
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    @media only screen and (min-device-width: 850px) {
+      .meunome {
+        font-size: 100px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        ;
+        color: #FFF;
+        margin-top: 10px;
+        pointer-events: none
+      }
+
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: -250px;
+        z-index: -1;
+      }
+
+      .ig {
+        background-color: rgb(124, 121, 122);
+        border-radius: 10px;
+        height: 70px;
+        width: 250px;
+        display: inline-block;
+
+      }
+
+      .icone-ig {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        filter: invert(1);
+        display: inline-block;
+
+      }
+
+      .unames {
+        font-size: 40px;
+        font-weight: bold;
+        color: #FFF;
+        margin-top: -110px;
+        margin-left: 70px;
+        pointer-events: none
+      }
+
+    }
+  </style>
 
 
 
@@ -129,26 +142,162 @@
 
 <script>
 
-function ig(){
+  function ig() {
     document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-}
+  }
 
-function clarin(){
+  function clarin() {
     document.getElementsByClassName("ig")[0].style.backgroundColor = "rgb(222,222,222)";
-}
+  }
 
-function escurin(){
+  function escurin() {
     document.getElementsByClassName("ig")[0].style.backgroundColor = "rgb(124, 121, 122)";
-}
+  }
+  let largura = window.innerWidth;
 
-    function particles() {
-        particlesJS("particles-js", {
+
+
+  function particlesPC() {
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 10
+          },
+          "image": {
+            "src": "",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 1,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0,
+            "sync": true
+          }
+        },
+        "size": {
+          "value": 2,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 17.041996348143652,
+            "size_min": 17.041996348143652,
+            "sync": true
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 110.14460148062693,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 0.6409640098708463
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 600
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "bubble"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 250,
+            "size": 0,
+            "duration": 2,
+            "opacity": 0,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 400,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+
+
+    /* ---- stats.js config ---- */
+
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  }
+  function particlesMB() {
+    particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 221,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1815.125519875625
       }
     },
     "color": {
@@ -158,56 +307,56 @@ function escurin(){
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#ffffff"
       },
       "polygon": {
-        "nb_sides": 10
+        "nb_sides": 12
       },
       "image": {
-        "src": "",
+        "src": "img/github.svg",
         "width": 100,
         "height": 100
       }
     },
     "opacity": {
       "value": 1,
-      "random": true,
+      "random": false,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
-        "opacity_min": 0,
-        "sync": true
+        "opacity_min": 0.1,
+        "sync": false
       }
     },
     "size": {
-      "value": 2,
+      "value": 4,
       "random": true,
       "anim": {
-        "enable": true,
-        "speed": 17.041996348143652,
-        "size_min": 17.041996348143652,
-        "sync": true
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 110.14460148062693,
+      "distance": 128.19280197416927,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 0.6409640098708463
+      "opacity": 1,
+      "width": 2.4036150370156735
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 1.6024100246771158,
       "direction": "none",
-      "random": true,
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 600,
-        "rotateY": 600
+        "rotateX": 2884.3380444188083,
+        "rotateY": 2964.458545652664
       }
     }
   },
@@ -216,7 +365,7 @@ function escurin(){
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
@@ -232,14 +381,14 @@ function escurin(){
         }
       },
       "bubble": {
-        "distance": 250,
-        "size": 0,
+        "distance": 400,
+        "size": 40,
         "duration": 2,
-        "opacity": 0,
+        "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
@@ -254,32 +403,31 @@ function escurin(){
 });
 
 
-/* ---- stats.js config ---- */
+    /* ---- stats.js config ---- */
 
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
   }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
-    }
-    particles();
 
-function celula(){
-  if(window.innerWidth <= 850){
-    particles.number.value = 10;
+
+  if (largura <= 1000) {
+    particlesMB();
+  } else {
+    particlesPC();
   }
-}
-celula();
 </script>
