@@ -1,10 +1,16 @@
 let ricks=0;
+let largura = window.innerWidth;
+
 function ig() {
     
     if(ricks!=0){
         window.alert("agora que voce começou a clicar no meu nome, contunua né... ");}else{
 
-       window.location.href = "https://www.instagram.com/rapburad/";
+    if(largura<=1000){
+        document.location.href = "instagram://user?username=rapburad}";
+       }
+    else{document.location.href = "https://www.instagram.com/rapburad/";}
+
     }
     
     }
@@ -28,7 +34,7 @@ if(ricks==17){
 }
 //as particulas
     
-let largura = window.innerWidth;
+
 
 
 
