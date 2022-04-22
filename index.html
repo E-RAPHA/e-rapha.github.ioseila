@@ -6,7 +6,7 @@
 
 <head>
   <title>Home</title>
-  <h1 class="meunome">Raphael Burad</h1>
+  <h1 class="meunome" onclick="rick()">Raphael Burad</h1>
   <div class="redes">
 
     <div class="ig" onmouseenter="clarin()" onmouseleave="escurin()" onclick="ig()">
@@ -71,6 +71,7 @@
 
       .unames {
         font-family: 'Poppins', sans-serif;
+        font-weight: bold;
         font-size: 130px;
         font-weight: bold;
         color: #FFF;
@@ -92,7 +93,6 @@
         font-size: 100px;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
-        ;
         color: #FFF;
         margin-top: 10px;
         pointer-events: none
@@ -127,11 +127,13 @@
 
       .unames {
         font-size: 40px;
+        font-family: 'Poppins', sans-serif;
         font-weight: bold;
         color: #FFF;
         margin-top: -110px;
         margin-left: 70px;
         pointer-events: none
+
       }
 
     }
@@ -142,16 +144,17 @@
 </body>
 
 <script>
+  
 
   function ig() {
-    document.getElementsByClassName("meunome")[0].innerHTML = "YOU'VE BEEN RICK ROLLED!";
-    let bColor= 0;
-    setInterval(() => {
-      bColor++;
-      !(bColor&1) ? document.body.style.backgroundColor = "rgb(255, 0, 0)" : document.body.style.backgroundColor = "rgb(255, 254, 254)";
-    }, 50);
-    setTimeout(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},1.4*1000)
-    
+  //   document.getElementsByClassName("meunome")[0].innerHTML = "YOU'VE BEEN RICK ROLLED!";
+  //   let bColor= 0;
+  //   setInterval(() => {
+  //     bColor++;
+  //     !(bColor&1) ? document.body.style.backgroundColor = "rgb(255, 0, 0)" : document.body.style.backgroundColor = "rgb(255, 254, 254)";
+  //   }, 50);
+  //   setTimeout(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"},1.4*1000)
+  document.location.href = "https://www.instagram.com/rapburad/" 
   }
 
   function clarin() {
@@ -355,7 +358,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 12.6024100246771158,
+      "speed": 1.6024100246771158,
       "direction": "none",
       "random": false,
       "straight": false,
