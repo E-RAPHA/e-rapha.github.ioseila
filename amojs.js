@@ -5,7 +5,8 @@ function ig() {
     
     if(ricks!=0){
         window.alert("agora que voce começou a clicar no meu nome, contunua né... ");}else{
-       document.location.href = "https://www.instagram.com/rapburad/";}
+       
+            document.location.href = "https://www.instagram.com/rapburad/";}
  
     }
 
@@ -23,7 +24,7 @@ ricks++
 document.querySelector("#rick > h1").innerText = `Raphael Burad ${ricks}`;
 if(ricks==17){
     window.alert('rickrollado kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk');
-   setTimeout(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";},1*500) 
+   setTimeout(()=>{setInterval(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";},100);},1*500) 
 }
 }
 //as particulas
