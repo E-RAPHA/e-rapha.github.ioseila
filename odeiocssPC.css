@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(61, 60, 60);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+
+}
+body,html{
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+/* h4{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+    pointer-events: none;
+
+} */
+.meunome {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    margin-top: 10px;
+    pointer-events: none;
+    z-index: 1;
+  }
+.ig{
+    
+    background-color: rgb(124, 121, 122);
+    border-radius: 20px;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+}
+.ig img{
+    width: 60px;
+    height: 60px;
+    margin-right:310px;
+    margin-left:5px;
+    margin-top: 3px;
+    margin-bottom:3px ;
+    filter: invert(1);
+    display: inline-block;
+  
+}
+.ig h4{
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: -11px;
+    margin-bottom: 1px;
+    margin-left: -303px;
+    pointer-events: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    align-items: center;
+    position: absolute;
+    
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -250px;
+    z-index: -1;
+}
+
+/* .tiktok {
+    background-color: rgb(124, 121, 122);
+    border-radius: 20px;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+}
+.tiktok img{
+    width: 60px;
+    height: 60px;
+    margin-right:310px;
+    margin-left:5px;
+    margin-top: 3px;
+    margin-bottom:3px ;
+    filter: invert(1);
+    display: inline-block;
+  
+}
+.tiktok h4{
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: -11px;
+    margin-bottom: 1px;
+    margin-left: -303px;
+    pointer-events: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    align-items: center;
+    position: absolute;
+    
+} */
+
