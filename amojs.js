@@ -7,10 +7,7 @@ function ig() {
         window.alert("agora que voce começou a clicar no meu nome, contunua né... ");}else{
 
     if(largura<=1000){
-        document.location.href = "instagram://user?username=rapburad}";
-       }
-    else{document.location.href = "https://www.instagram.com/rapburad/";}
-
+       document.location.href = "https://www.instagram.com/rapburad/";}
     }
     
     }
