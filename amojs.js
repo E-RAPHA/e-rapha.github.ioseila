@@ -5,11 +5,8 @@ function ig() {
     
     if(ricks!=0){
         window.alert("agora que voce começou a clicar no meu nome, contunua né... ");}else{
-
-    if(largura<=1000){
        document.location.href = "https://www.instagram.com/rapburad/";}
-    }
-    
+ 
     }
 
 function clarin() {
