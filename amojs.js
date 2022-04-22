@@ -24,7 +24,7 @@ ricks++
 document.querySelector("#rick > h1").innerText = `Raphael Burad ${ricks}`;
 if(ricks>17){
     window.alert('rickrollado kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk');
-   setTimeout(()=>{setInterval(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";},100);},1*500) 
+   setTimeout(()=>{setInterval(()=>{document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";},1000);},1*500) 
 }
 }
 //as particulas
